@@ -14,7 +14,6 @@
         <models>
             <imaginaerum_extralib>
                 <class>Imaginaerum_Extralib_Model</class>
-                <resourceModel>imaginaerum_extralib_resource</resourceModel>
             </imaginaerum_extralib>
         </models>
         <events>
