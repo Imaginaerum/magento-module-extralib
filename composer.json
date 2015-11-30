@@ -1,0 +1,7 @@
+{
+    "name": "imaginaerum/magento-module-imaginaerum-extralib",
+    "description": "Add custom libs to Magento 1.x",
+    "require": {
+        "php": ">=5.4.0"
+    }
+}

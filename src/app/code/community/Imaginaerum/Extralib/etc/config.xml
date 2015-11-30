@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Imaginaerum_Extralib>
+            <version>1.0.0.0</version>
+        </Imaginaerum_Extralib>
+    </modules>
+    <global>
+        <helpers>
+            <imaginaerum_extralib>
+                <class>Imaginaerum_Extralib_Helper</class>
+            </imaginaerum_extralib>
+        </helpers>
+        <models>
+            <imaginaerum_extralib>
+                <class>Imaginaerum_Extralib_Model</class>
+                <resourceModel>imaginaerum_extralib_resource</resourceModel>
+            </imaginaerum_extralib>
+        </models>
+        <events>
+            <controller_front_init_before>
+                <observers>
+                    <imaginaerum_extralib_observer>
+                        <type>singleton</type>
+                        <class>Imaginaerum_Extralib_Model_Observer_Autoloader</class>
+                        <method>autoloader</method>
+                    </imaginaerum_extralib_observer>
+                </observers>
+            </controller_front_init_before>
+        </events>
+    </global>
+</config>
