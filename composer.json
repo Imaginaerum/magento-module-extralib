@@ -1,5 +1,5 @@
 {
-    "name": "imaginaerum/magento-module-imaginaerum-extralib",
+    "name": "imaginaerum/magento-module-extralib",
     "description": "Add custom libs to Magento 1.x",
     "license": "OSL-3.0",
     "require": {
